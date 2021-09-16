@@ -20,3 +20,7 @@ Route::get('/register', 'AuthController@register');
 
 // WELCOME
 Route::get('/welcome', 'AuthController@welcome');
+
+Route::get('/master', function () {
+    return view('layout.master');
+});

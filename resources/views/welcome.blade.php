@@ -1,4 +1,7 @@
-@extends('master')
+@extends('layout.master')
+@section('judul')
+    Halaman Utama
+@endsection
 
 @section('content')
 <h1>Selamat Datang !</h1>
